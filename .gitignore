@@ -6,3 +6,28 @@ dist
 !.env.example
 
 **/.turbo
+
+packages/database/generated
+
+# Next.js (apps/web)
+.next/
+out/
+
+# NestJS & TypeScript Compilers (apps/api & packages)
+dist/
+*.tsbuildinfo
+
+# Prisma Engine Binaries
+*.node
+*.dll
+*.dylib
+*.so
+
+# Local Environment Overrides
+.env.local
+.env.*.local
+
+# OS & IDE Caches
+.vscode/
+.DS_Store
+Thumbs.db
